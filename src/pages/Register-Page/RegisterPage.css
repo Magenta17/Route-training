@@ -1,0 +1,94 @@
+.register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    background-color: #f7f7f7;
+    background-image: linear-gradient(to bottom, #f7f7f7, #e5e5e5);
+    font-family: Arial, sans-serif;
+  }
+  
+  .register-page h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .register-page label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .register-page input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .register-page input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-page button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .register-page button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .login-link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .login-link:hover {
+    color: #3e8e41;
+  }
+  
+  .register-page .error-message {
+    color: #f44336;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .register-page .success-message {
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
